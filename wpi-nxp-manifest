@@ -27,7 +27,6 @@
   <project name="meta-freescale-distro" path="sources/meta-freescale-distro" remote="community" revision="e6daa26ba1f748326546063d63a085ae671827d9" upstream="hardknott"/>
 
   <project name="meta-imx" path="sources/meta-imx" remote="nxp-imx" revision="refs/tags/rel_imx_5.10.72_2.2.0_gh" upstream="hardknott-5.10.72-2.2.0">
-    <linkfile src="tools/imx-setup-release.sh" dest="imx-setup-release.sh"/>
     <linkfile src="README" dest="README-IMXBSP"/>
   </project>
   <project name="meta-nxp-demo-experience" path="sources/meta-nxp-demo-experience" remote="imx-support" revision="f540304fda6242be240792095ec4a67bfbb9425f" upstream="hardknott-5.10.72-2.2.0"/>
@@ -39,4 +38,6 @@
   <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="7f719ef40896b6c78893add8485fda995b00d51d" upstream="hardknott"/>
   <project name="poky" path="sources/poky" remote="yocto" revision="269265c00091fa65f93de6cad32bf24f1e7f72a3" upstream="hardknott"/>
   <project name="meta-test" path="sources/meta-test" remote="wpi" revision="fa06ac57412d20d272318e30ec24c1ac6760ddeb" upstream="master"/>
+    <linkfile src="imx-setup-release.sh" dest="imx-setup-release.sh"/>
+  </project>
 </manifest>
