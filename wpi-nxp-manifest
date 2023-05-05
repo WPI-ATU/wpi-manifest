@@ -37,7 +37,7 @@
   <project name="meta-timesys" path="sources/meta-timesys" remote="Timesys" revision="93bf122d77e77aac1a917865538df84f148a8fcc" upstream="gatesgarth"/>
   <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="7f719ef40896b6c78893add8485fda995b00d51d" upstream="hardknott"/>
   <project name="poky" path="sources/poky" remote="yocto" revision="269265c00091fa65f93de6cad32bf24f1e7f72a3" upstream="hardknott"/>
-  <project name="meta-test" path="sources/meta-test" remote="wpi" revision="fa06ac57412d20d272318e30ec24c1ac6760ddeb" upstream="master">
+  <project name="meta-test" path="sources/meta-test" remote="wpi" revision="b1263dc175562d380f040fb374426b0c47271392" upstream="master">
     <linkfile src="imx-setup-release.sh" dest="imx-setup-release.sh"/>
   </project>
 </manifest>
