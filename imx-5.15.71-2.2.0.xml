@@ -12,7 +12,7 @@
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/nxp-imx-support" name="imx-support"/>
-  <remote fetch="https://github.com/WPI-ATU/" name="wpi-atu"/>
+  <remote fetch="https://github.com/WPI-ATU/" name="wpi-wpi"/>
 
   <project name="fsl-community-bsp-base" path="sources/base" remote="community" revision="60f79f7af60537146298560079ae603260f0bd14" upstream="kirkstone">
     <linkfile dest="README" src="README"/>
@@ -34,7 +34,7 @@
   <project name="meta-timesys" path="sources/meta-timesys" remote="Timesys" revision="d1ad27bfacc937048e7f9084b17f4d7c917d2004" upstream="master"/>
   <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="9482648daf0bb42ff3475e7892542cf99f3b8d48" upstream="master"/>
   <project name="poky" path="sources/poky" remote="yocto" revision="24a3f7b3648185e33133f5d96b184a6cb6524f3d" upstream="kirkstone"/>
-  <project name="meta-atu" path="sources/meta-wpi" remote="wpi-atu" revision="1d67cb587003fb8a6451fc986f8604c1874396e4" upstream="kirkstone-5.15.71-2.2.0">
+  <project name="meta-wpi" path="sources/meta-wpi" remote="wpi-atu" revision="1d67cb587003fb8a6451fc986f8604c1874396e4" upstream="kirkstone-5.15.71-2.2.0">
 	  <linkfile src="tools/imx-setup-release.sh" dest="imx-setup-release.sh"/>
   </project>
 </manifest>
