@@ -73,4 +73,10 @@ WPI 常用的映像檔選項
 | imx-image-multimedia | 具備 GUI 並包含多媒體工具 |
 | imx-image-full | 具備 GUI、多媒體工具、QT 及 Machine Learning 所需的函式庫 |
 
+## ATU Support
 
+* [NXP i.MX8 大大通技術索引](https://hackmd.io/@WPI-ATU-TW1/Bk3zvW0Ts/https%3A%2F%2Fhackmd.io%2FXC9STgFjSs6_vadDkO0YSA%3Fboth?utm_source=preview-mode&utm_medium=rec)
+
+<img src="https://hackmd.io/_uploads/Hy773SVvn.png"  width="200" height="200">
+
+如果你有任何需求，請聯絡 WPI 的 [TW ATU](mailto:wpi.atu.github@wpi-group.com) 團隊
