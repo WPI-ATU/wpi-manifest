@@ -7,7 +7,7 @@
 
   <project name="meta-nxp-desktop" path="sources/meta-nxp-desktop" remote="nxp-imx" revision="refs/tags/rel_lf_5.15.71_2.2.0_ldp" upstream="lf-5.15.71-2.2.0-kirkstone" />
 
-  <project name="meta-wpi-desktop" path="sources/meta-wpi-desktop" remote="wpi-atu" revision="7b35ea3737345958cdf25a489ceccda3a87f7d08" upstream="lf-5.15.71-2.2.0-kirkstone">
+  <project name="meta-wpi-desktop" path="sources/meta-wpi-desktop" remote="wpi-atu" revision="0fa407f9f341807d66f27adda0f71be72320fbea" upstream="lf-5.15.71-2.2.0-kirkstone">
     <linkfile src="tools/imx-setup-desktop.sh" dest="imx-setup-desktop.sh"/>
   </project>
 </manifest>
