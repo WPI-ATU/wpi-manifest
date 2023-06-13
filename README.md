@@ -1,6 +1,6 @@
 <h1>WPI i.MX Repo Manifest README</h1>
 
-<a>此資源庫是基於 [NXP i.MX Linux BSP Software](https://github.com/nxp-imx) 並加上 WPI 客製化 Layer 所建立而成，用於下載各種 WPI i.MX BSP 版本的 manifest。</a>
+<a>此資源庫是基於 [NXP i.MX Linux BSP Software \[imx-manifest\]](https://github.com/nxp-imx/imx-manifest) 並加上 WPI 客製化 Layer 所建立而成，用於下載各種 WPI i.MX BSP 版本的 manifest。</a>
 
 <a>各個分支都是根據 Linux 的版本去命名的，例如：``imx-linux-kirkstone`` 內的 manifest 都會跟 ``Kirkstone`` 版本相關，其他具體說明則會包含在分支內的 README</a>
 
