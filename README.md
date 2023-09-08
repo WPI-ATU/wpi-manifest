@@ -2,7 +2,7 @@
 
 <a>此資源庫是基於 [NXP i.MX Linux BSP Software \[imx-manifest\]](https://github.com/nxp-imx/imx-manifest) 並加上 WPI 客製化 Layer 所建立而成，用於下載各種 WPI i.MX BSP 版本的 manifest。</a>
 
-<a>各個分支都是根據 Linux 的版本去命名的，例如：``imx-linux-kirkstone`` 內的 manifest 都會跟 ``Kirkstone`` 版本相關，其他具體說明則會包含在分支內的 README</a>
+<a>各個分支都是根據 Linux 的版本去命名的，例如：``imx-linux-langdale`` 內的 manifest 都會跟 ``langdale`` 版本相關，其他具體說明則會包含在分支內的 README</a>
 
 
 * i.MX Linux Yocto Project 釋出的分支皆會以 ``imx-linux-`` 作為前綴詞
@@ -31,10 +31,10 @@ $ repo sync
 
 ## 範例
 
-下載 5.15.71-2.2.0 版本
+下載 6.1.1-1.0.0 版本
 
 ```!
-$ repo init -u https://github.com/WPI-ATU/wpi-manifest.git -b imx-linux-kirkstone -m imx-5.15.71-2.2.0.xml
+$ repo init -u https://github.com/WPI-ATU/wpi-manifest.git -b imx-linux-langdale -m imx-6.1.1-1.0.0.xml
 ```
 
 ## 建立編譯環境
